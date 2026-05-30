@@ -1,1 +1,5 @@
-
+:root {
+  --white-raw: 255 255 255;
+  --white: rgb(var(--white-raw));
+  background-color: var(--white);
+}
