@@ -4,9 +4,11 @@
   --white-raw: 255 255 255;
   --white: rgb(var(--white-raw));
   background-color: var(--white);
+  color: var(--black);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     background-color: var(--black);
+    color: var(--white);
   }
